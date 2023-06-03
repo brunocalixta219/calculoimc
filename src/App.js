@@ -1,14 +1,13 @@
-import './styles/App.css';
+import React, {useState} from 'react'
+import './styles/App.scss';
+import {Calculator, Result} from './components';
 
 function App() {
+  const [step, setStep] = useState('calculator');
+  const [imc, setImc] = useState(0);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+      step === 'calculator' ? <Calculator setStep={setStep} setImc={setImc}/> : <Result setStep={setStep} imc={imc} setImc={setImc}/>
   );
 }
 
