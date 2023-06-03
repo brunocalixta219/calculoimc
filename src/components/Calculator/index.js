@@ -33,8 +33,6 @@ const handleCalculateButtonClick = () => {
 const disableCalculateButton = () => {
   return weight === '' || height === ''
 }
-  
-disableCalculateButton()
 
   return (
     <div className="Calculator">
@@ -42,7 +40,6 @@ disableCalculateButton()
        Calculadora de IMC
       </header>
       <main className="Calculator-content">
-        Digite as informações
         <div className="content-form">
           <label htmlFor='weight'>
             <span>Peso:</span> 

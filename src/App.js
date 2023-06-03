@@ -7,7 +7,7 @@ function App() {
   const [imc, setImc] = useState(0);
 
   return (
-      step === 'calculator' ? <Calculator setStep={setStep} setImc={setImc}/> : <Result setStep={setStep} imc={imc} setImc={setImc}/>
+      step === 'result' ? <Result setStep={setStep} imc={imc} setImc={setImc}/> : <Calculator setStep={setStep} setImc={setImc}/> 
   );
 }
 
