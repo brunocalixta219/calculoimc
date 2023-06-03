@@ -1,4 +1,4 @@
-# calculoimc
+### calculoimc
 Projeto simples para cálculo de IMC
 
 ### `npm start`
