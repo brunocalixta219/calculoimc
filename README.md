@@ -1,5 +1,5 @@
 ### calculoimc
-Projeto simples para cálculo de IMC
+Projeto simples para cálculo de IMC com ReactJs
 
 ### `npm start`
 
